@@ -1,0 +1,10 @@
+from ast import If, Str
+import string
+
+#Write a program in Python Sharp to display the multiplication table of a given integer. 
+
+ourNum = int(input("Enter the number you want to generate a multiplication table for, then hit the `enter` key: "))
+ourRange = range(1,11)
+for x in ourRange:
+    result = ourNum * x
+    print(ourNum," * ",x," = ",result)
